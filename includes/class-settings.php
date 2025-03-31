@@ -31,8 +31,8 @@
 		 */
 		public static function add_settings_page(): void {
 			add_menu_page(
-				'Post Sync Settings',
-				'Post Sync',
+				'Copy Posts WP Settings',
+				'Copy Posts WP',
 				'manage_options',
 				'mgcpwp-settings',
 				[ __CLASS__, 'settings_page' ],
